@@ -1,0 +1,109 @@
+/* VaserLipo-container */
+.VaserLipo-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 3% 8%;
+    align-items: center;
+    gap: 18px;
+    font-family: Roboto, sans-serif;
+}
+
+.content{
+    text-wrap: wrap;
+    width: 50%;
+    padding: 20px;   
+}
+.content h2{
+    color: #34024B;
+    font-weight: 700;
+    font-size: 39px;
+    margin-bottom: 10px;
+}
+.content p{
+    font-size: 19px;
+    line-height: 26px;
+    font-weight: 400;
+    color: rgba(49, 56, 66, 0.86);
+}
+
+.VaserLipo-img{
+    width: 50%;
+}
+
+.vaserlipo{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+
+.oneVideo{
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.content-with-video{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+    margin: 3% 8%;
+    align-items: center;
+
+}
+
+.green-content p{
+    color: #0B5600;
+    margin: 3% 8%;
+
+}
+
+.green-content{
+    margin: -50px 0 50px 0;
+}
+
+.oneVideo{
+    gap: 20px;
+}
+
+
+
+/* technologies.css */
+@media only screen and (max-width: 768px) {
+    .VaserLipo-container {
+      flex-direction: column;
+      margin: 3% 5%;
+    }
+    
+    .content {
+      width: 100%;
+    }
+    
+    .img-technologies {
+      width: 100%;
+    }
+    
+    .vaserlipo {
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+  
+  @media only screen and (max-width: 560px) {
+    .content h2 {
+      font-size: 30px;
+    }
+    
+    .content p {
+      font-size: 16px;
+      line-height: 22px;
+    }
+    
+    .img-technologies img {
+      height: auto;
+      width: 100%;
+    }
+  }
+  

@@ -1,0 +1,52 @@
+:root{
+    --RobotoFont:  "Roboto", sans-serif;
+    text-transform: none !important;
+
+  }
+  
+
+.slider-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* margin: 0 40px ; */
+    padding: 100px 20px;
+    background-color: rgba(221, 215, 215, 0.428);
+
+}
+.slider-container img{
+    height: 50px;
+}
+.slider-container img {
+    height: 75px !important;
+}
+.insurance, .finance{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap ;
+    align-items: center;
+    
+    background-color: white;
+    padding: 40px 20px;
+    border-radius: 8px;
+}
+
+.insurance img, .finance img{
+    padding: 10px;    
+    /* padding: 20px 20px; */
+    
+}
+
+.moment, .patinent{
+    mix-blend-mode: multiply;
+}
+.sliderHeading{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500px; margin: 20px 0;
+}
+
+.sliderHeading{
+    color: rgb(52, 2, 75);
+    font-size: 28px;
+}

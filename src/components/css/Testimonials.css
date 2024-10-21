@@ -1,0 +1,24 @@
+:root{
+    --RobotoFont:  "Roboto", sans-serif;
+  }
+  *{
+    font-family: var(--RobotoFont);
+    text-transform: none !important;
+
+}  
+  
+
+  
+.testimonials{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.t-card{
+    width: 357px;
+}
+
+.content{
+    color: black;
+}

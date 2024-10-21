@@ -1,0 +1,635 @@
+:root {
+    --RobotoFont: "Roboto", sans-serif;
+    text-transform: none !important;
+
+}
+
+* {
+    font-family: var(--RobotoFont);
+}
+
+paitne .patients-review-container {
+    width: 100%;
+
+}
+
+.banner {
+    position: relative;
+}
+
+.banner img {
+    object-fit: cover;
+    height: 350px;
+    width: 100%;
+    position: relative;
+    /* height: 10% !important; */
+}
+
+.video_css {
+    object-fit: cover;
+    height: 350px !important;
+    width: 100%;
+    position: relative;
+}
+
+.banner h2 {
+    position: absolute;
+    /* bottom: 0 !important; */
+    top: 80% !important;
+    /* color: 10px !important; */
+    font-size: 33px !important;
+    text-align: center !important;
+    left: 28% !important;
+    /* left: 50%; */
+    /* width: 100% !important; */
+
+}
+
+.banner h3 {
+    position: absolute;
+    /* bottom: 0 !important; */
+    top: 80% !important;
+    color: white;
+    /* color: 10px !important; */
+    font-size: 33px !important;
+    text-align: left !important;
+    left: 68% !important;
+    /* left: 50%; */
+    /* width: 100% !important; */
+
+}
+
+.short-videos-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.short-videos-container .s-video iframe {
+    border: none;
+}
+
+.s-video {
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 0 10px #00000040;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.l-video iframe {
+    width: 100%;
+}
+
+.s-video iframe {
+    height: 400px !important;
+}
+
+.s-video h4 {
+    font-size: 16px;
+    color: rgb(122, 122, 122);
+    font-weight: 700;
+    line-height: 26px;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.long-video {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px 40px;
+}
+
+.l-video h4 {
+    font-size: 16px;
+    color: rgb(122, 122, 122);
+    font-weight: 700;
+    line-height: 26px;
+    font-family: "Roboto", sans-serif;
+
+}
+
+
+/* CSS */
+@media only screen and (max-width: 768px) {
+    .short-videos-container {
+        grid-template-columns: repeat(2, 1fr);
+        flex-direction: column;
+        padding: 10px 0px;
+        gap: 20px;
+    }
+
+    .container {
+        max-width: 100% !important;
+        overflow: hidden;
+    }
+
+    iframe {
+        margin: 0;
+    }
+
+    .s-video {
+        width: 100%;
+        /* margin: 20px 0; */
+    }
+
+    .long-video {
+        gap: 20px;
+    }
+
+    .l-video {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .l-video iframe {
+        width: 100% !important;
+    }
+
+    .testimon .box-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media only screen and (max-width: 520px) {
+
+    .htmlCss-sub-menu,
+    .navbar .links li .sub-menu .more:hover .more-sub-menu,
+    nav .navbar .links li:hover .htmlCss-sub-menu,
+    nav .navbar .links li:hover .js-sub-menu {
+        padding-left: 0 !important;
+    }
+
+    nav .navbar .nav-links {
+        max-width: 300px;
+    }
+
+    .navbar .links li .sub-menu li {
+        padding: 0 15px !important;
+    }
+
+    .policy-container {
+        padding: 0 15px !important;
+        margin: 0 !important;
+    }
+
+    nav .navbar {
+        padding: 5px 15px !important;
+    }
+
+    .tab-container {
+        padding: 0 15px !important;
+    }
+
+    .tab-content {
+        margin: 0 !important;
+    }
+
+    .tab-pane img {
+        margin: 15px 0 !important;
+        padding: 0 !important;
+        width: 100% !important;
+    }
+
+    .shadow-text {
+        padding: 0 !important;
+        box-shadow: none !important;
+    }
+
+    .tab-pane ul {
+        margin-left: 0 !important;
+        padding-left: 1rem !important;
+    }
+
+    .board-container .board {
+        flex-wrap: wrap !important;
+        padding: 20px !important;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .nav-tabs .nav-link {
+        width: 100%;
+        margin: 5px 0;
+        border-radius: 5px;
+        box-shadow: 0 0 10px #0000001a;
+    }
+
+    .nav-tabs .nav-link.active {
+        color: white;
+        background: #34024bd4;
+    }
+
+    .h-50 {
+        height: 50vh !important;
+    }
+
+    .philosophy-container {
+        padding: 0 15px;
+    }
+
+    .main-container {
+        padding: 0 15px !important;
+        gap: 0;
+    }
+
+    .image-container {
+        width: 100%;
+    }
+
+    .disclamer {
+        padding: 15px;
+    }
+
+    .banner {
+        height: auto;
+    }
+
+    .sliderVid {
+        height: auto;
+        pointer-events: none;
+        user-select: none;
+    }
+
+    .short-videos-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .s-video iframe {
+        width: 100% !important;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .vaserlipo {
+        padding: 0 15px;
+    }
+
+    .content {
+        padding: 0 !important;
+    }
+
+    .banner h2 {
+        position: relative !important;
+        color: black !important;
+        left: 0 !important;
+        top: 50% !important;
+        font-size: 30px !important;
+    }
+    .banner h3 {
+        position: relative !important;
+        color: black !important;
+        left: 0 !important;
+        top: 50% !important;
+        font-size: 30px !important;
+    }
+
+    .long-video {
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 5px;
+    }
+
+    .testimon h1 {
+        text-align: center;
+    }
+
+    .testimon .box-container .box {
+        box-shadow: 0 0 10px #00000024 !important;
+        padding: 20px;
+    }
+}
+
+
+/* ---------------------------------Finance AND Payment Pages-------------------------------------------- */
+
+/* General styles */
+
+.apply-content-container {
+    margin: 50px 0;
+}
+
+.financing {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 2% 10%;
+    /* Adjust padding for smaller screens */
+    gap: 20px;
+    /* Reduce the gap between elements */
+    margin-top: 50px;
+}
+
+.financing img {
+    width: 100%;
+}
+
+.f-content h2 {
+    font-size: 43px;
+    /* Decrease font size for smaller screens */
+    line-height: 60px;
+    /* Adjust line height */
+    font-weight: 700;
+    position: relative;
+    color: #34024B;
+}
+
+.f-content h2::after {
+    content: ' ';
+    position: absolute;
+    width: 40%;
+    color: #c8c8c8;
+    height: 5px;
+    background-color: #c8c8c8;
+    bottom: 0;
+    left: 0;
+    margin: -20px 0;
+}
+
+.f-img {
+    display: flex;
+    justify-content: right;
+}
+
+.apply-content {
+    padding: 2% 10%;
+    ;
+    /* Adjust padding */
+    display: flex;
+    flex-direction: column;
+    /* Stack items vertically */
+    justify-content: space-between;
+    gap: 10px;
+    /* Reduce the gap between items */
+    align-items: center;
+    /* Center items horizontally */
+}
+
+.apply-content button {
+    width: 100%;
+    /* Make buttons full width */
+    margin: 20px 0;
+}
+
+.a-content h4 {
+    font-size: 24px;
+    /* Decrease font size for smaller screens */
+    line-height: 30px;
+    /* Adjust line height */
+}
+
+
+.gery-black {
+    background-color: #c8c8c8;
+}
+
+/* Specific styles for tablets */
+@media only screen and (min-width: 768px) {
+    .financing {
+        flex-direction: row;
+        /* Display items horizontally */
+        align-items: center;
+        /* Center items vertically */
+    }
+
+    .f-content {
+        width: 50%;
+        /* Make the content take up half of the width */
+        padding: 10px 20px;
+    }
+
+    .f-img {
+        width: 50%;
+        /* Make the image take up half of the width */
+    }
+
+    .apply-content {
+        flex-direction: row;
+        /* Display items horizontally */
+        height: auto;
+        /* Reset height */
+        align-items: center;
+        /* Center items vertically */
+    }
+
+    .apply-content button {
+        width: fit-content;
+        /* Reset button width */
+    }
+
+    .a-content h4 {
+        font-size: 28px;
+        /* Adjust font size */
+    }
+}
+
+/* Specific styles for larger screens */
+@media only screen and (min-width: 1024px) {
+    /* Add specific styles for larger screens here */
+}
+
+
+
+/* CSS */
+@media only screen and (max-width: 768px) {
+    .doctor-detaills {
+        padding: 0 10px;
+    }
+
+    .doctor-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .p-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .philosophy {
+        flex-direction: column;
+    }
+
+    .p-content,
+    .p-img {
+        width: 100%;
+    }
+
+    .client-logo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-client img {
+        margin: 10px 0;
+    }
+
+    .book-for-counsl {
+        padding: 0 10px;
+        text-align: center;
+    }
+}
+
+/* ---------------------------------Finance AND Payment Pages-------------------------------------------- */
+
+
+
+/* --------------------------------------------------------- FAQ Page ---------------------------------------------------------------------------- */
+
+.faq-banner-container {
+    width: 100%;
+}
+
+.faq-banner-container img {
+    width: 100%;
+    position: relative;
+}
+
+.banner h2 {
+    position: absolute;
+    font-weight: 700;
+    font-size: 55px;
+    top: 40%;
+    left: 10%;
+    color: white;
+}
+
+.accordion-container {
+    padding: 2% 10%;
+    ;
+
+}
+
+.accordion-heading {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.accordion-button {
+    font-weight: bold;
+    /* font-family: "Roboto", sans-serif !important */
+}
+
+.accordion-body p {
+    /* font-family: "Roboto", sans-serif !important */
+
+}
+
+.accordion-item {
+    /* border: 1px solid rgb(22, 22, 22); */
+}
+
+.accordion {
+    border-radius: 8px;
+}
+
+
+.slider-container img {
+    height: 72px;
+}
+
+.nav-faq h2::after {
+    content: none;
+}
+
+
+/* --------------------------------------------------------- FAQ Page ---------------------------------------------------------------------------- */
+
+
+/* follow us icons */
+
+.follow {
+    margin: 50px auto;
+}
+
+.followus-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    gap: 10px;
+}
+
+.follow>h2 {
+    font-size: 28px !important;
+}
+
+.follow-icon {
+    font-size: 20px;
+    background-color: red;
+    padding: 10px;
+    clip-path: circle();
+    /* margin: 10px; */
+}
+
+/* follow us icons */
+
+
+.faFacebook {
+    background-color: blue;
+    color: white;
+
+}
+
+.faInstagram {
+    background-color: magenta;
+    color: white;
+}
+
+.faTwitter {
+    background-color: rgb(0, 195, 255);
+    color: white;
+}
+
+.faYoutube {
+    background-color: red;
+    color: white;
+}
+
+.faTiktok {
+    background-color: black;
+    color: red;
+}
+
+.faLinkedin {
+    background-color: blue;
+    color: white;
+}
+
+
+
+/* tab content */
+.italic {
+
+
+    font-style: italic;
+}
+
+.bold {
+    font-family: bold;
+}
+
+.li-services li {
+
+    list-style-type: disc;
+}
+
+li::marker {
+    color: rgb(94, 94, 94);
+
+}
+
+tr th {
+    font-weight: 400 !important;
+}
+
+.copy-right-sec a {
+    color: White;
+}

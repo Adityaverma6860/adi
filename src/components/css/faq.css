@@ -1,0 +1,92 @@
+.accordion-main-container{
+    margin: 2% 8%;
+}
+
+.faq-banner-container{
+    width: 100%;
+}  
+.faq-banner-container img{
+    width: 100%;
+    position: relative;
+}
+.banner h2{
+    position: absolute;
+  font-weight: 700;
+  font-size: 55px;
+  top: 40%;
+  left: 10%;
+  color: white;
+}
+
+.accordion-container{
+    padding: 2% 10%;
+
+
+}
+
+.accordion-heading{
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.accordion-button{
+    font-weight: bold;
+    /* font-family: "Roboto", sans-serif !important */
+}
+
+.accordion-body p{
+    /* font-family: "Roboto", sans-serif !important */
+
+}
+
+.accordion-item{
+    /* border: 1px solid rgb(22, 22, 22); */
+}
+
+.accordion{
+    border-radius: 8px;
+}
+
+
+.slider-container img{
+    height: 72px;
+}
+
+.nav-faq h2::after{
+    content: none;
+}
+
+.faq-heading{
+    margin: 50px auto 0 auto;
+    padding-bottom: 20px;
+    text-align: center  ;
+    font-weight: 600;
+    font-size: 32px;
+
+}
+
+.faq1{ 
+z-index: 999999;
+border: 5px solid rgba(92, 92, 92, 0.97);
+}
+
+.faq2{
+    border: 5px solid #1f50ff75 !important;
+}
+
+.faq3{
+    border: 5px solid rgba(0, 128, 0, 0.493) !important;
+}
+
+.faq4{
+    border: 5px solid rgba(113, 36, 36, 0.526) !important;
+}
+@media only screen and (max-width: 520px) {
+    .accordion-main-container{
+        margin:  0;
+        padding: 0 15px;
+    }
+}

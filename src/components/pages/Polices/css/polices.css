@@ -1,0 +1,56 @@
+.policy-container {
+    margin: 5% 10%;
+}
+
+
+/* ------------------------- >> Privacy Policy  <<---------------------------- */
+.policesHeading{
+    text-align: center;
+}
+h2,
+h1,
+h3 {
+
+    font-weight: 600;
+    color: rgb(30, 41, 59);
+}
+
+.pivacy-policy-containe h2 {
+    font-size: 26px;
+}
+
+.pivacy-policy-containe h3 {
+    font-size: 24px;
+}
+
+
+.pivacy-policy-containe p {
+    color: rgb(51, 65, 85);
+    font-weight: 400;
+}
+
+.pivacy-policy-containe strong {
+    color: rgb(51, 65, 85);
+}
+
+.pivacy-policy-containe li::marker {
+    color: rgb(51, 65, 85);
+}
+
+.ulclass {
+    margin-left: 4%;
+}
+
+.pivacy-policy-containe li {
+    color: rgb(51, 65, 85) #334155;
+    padding: 5px;
+}
+
+.pivacy-policy-containe a {
+    color: rgb(4, 92, 180);
+}
+
+/* ------------------------- >> Privacy Policy  <<---------------------------- */
+
+
+/* ------------------------- >> Privacy Policy  <<---------------------------- */

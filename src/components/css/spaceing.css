@@ -1,0 +1,10 @@
+:root {
+    --mainColor: #34024B;
+  }
+.mainPadding{
+    padding: 0px 20px;
+}
+.clr{
+  padding: 30px 0;
+}
+

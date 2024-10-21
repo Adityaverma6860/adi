@@ -1,0 +1,1151 @@
+/* ---------------------------- Start Top Banner---------------------------------- */
+/* ---------------------------- Start Top Banner---------------------------------- */
+:root {
+  --RobotoFont: "Roboto", sans-serif;
+  text-transform: none !important;
+
+}
+
+* {
+  font-family: var(--RobotoFont);
+}
+
+.top-banner {
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.home-top-bar {
+  position: relative;
+
+}
+
+
+
+
+
+:root {
+  --cardWidth: 337.2px;
+}
+
+.banner-right {
+  width: 30%;
+  margin-top: 20px;
+  /* Adjust width to 100% for smaller screens */
+  position: absolute;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  top: 0px;
+  padding: 0 40px;
+
+}
+
+.mainIframe {
+  width: 100%;
+}
+
+.achieve {
+  padding: 0 40px;
+  text-align: center;
+  /* Add padding for better spacing */
+
+}
+
+.message-banner {
+  color: white;
+  background-color: rgba(131, 97, 137, 0.8);
+  /* Add transparency to the background color */
+  border-radius: 4px;
+  padding: 10px 20px;
+  /* Add padding for better spacing */
+  margin-bottom: 20px;
+  /* Add margin at the bottom for better separation */
+  display: flex;
+  /* Make it flex container */
+  align-items: center;
+  flex-direction: column;
+  /* Center align items vertically */
+}
+
+
+.d-services {
+  padding: 30px 0;
+}
+
+h4 {
+  font-size: 22px;
+  /* Increase font size for better readability on smaller screens */
+}
+
+.communication2 {
+  color: rgb(75, 75, 75);
+  width: 70%;
+  /* width: 100%; */
+}
+
+.Virtual {
+  width: 30%;
+}
+
+.form-div {
+  display: flex;
+  gap: 10px;
+}
+
+/* Media Query for smaller screens */
+/* Media Query for smaller screens */
+
+@media (max-width: 800px) {
+  .top-banner {
+    padding: 20px;
+    /* Reduce padding for smaller screens */
+  }
+
+  .home-top-bar {
+    height: 60vh;
+
+  }
+
+  .sliderVid {
+    height: 10vh;
+    /* Full viewport height on mobile */
+
+    object-fit: cover;
+    /* Maintain aspect ratio and cover container */
+    width: auto;
+    /* Allow width to adjust automatically */
+  }
+
+
+  .banner-right {
+    width: 100%;
+    /* Adjust width to 100% for smaller screens */
+
+    margin-top: 20px;
+    /* Add margin at the top for better separation */
+    position: relative;
+    /* Remove absolute positioning */
+    right: unset;
+    /* Reset right positioning */
+    top: unset;
+    /* Reset top positioning */
+    padding: 0;
+    /* Remove padding */
+  }
+
+
+
+  h4 {
+    font-size: 18px;
+    /* Decrease font size for smaller screens */
+  }
+
+  /* Contact Form */
+  form {
+    width: 100%;
+    padding: 0 20px;
+    display: block;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  select[type="option"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #000000b0;
+  }
+
+  input::placeholder {
+    color: #000000b0;
+  }
+
+  textarea {
+    height: 120px;
+    /* Increase height for better usability */
+  }
+
+  input[type="submit"] {
+    padding: 12px 20px;
+    /* Increase padding for better touch interaction */
+  }
+
+
+}
+
+
+
+/* Contact Form */
+form {
+  width: 100%;
+  /* Adjust width to 100% for smaller screens */
+}
+
+input[type="text"] input[type="email"],
+textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+textarea {
+  height: 100%;
+  /* Increase height for better usability */
+}
+
+input[type="submit"] {
+  background-color: var(--mainColor);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+input[type="submit"]:hover {
+  background-color: var(--mainColor);
+}
+
+
+/* ---------------------------- Start Top Banner---------------------------------- */
+/* ---------------------------- Start Top Banner---------------------------------- */
+
+
+/* Schedule Section */
+.schedule {
+  display: flex;
+  flex-wrap: wrap;
+  /* Allow items to wrap to the next line on smaller screens */
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  background-color: #34024B;
+  padding: 20px;
+  margin: 40px 0;
+
+
+}
+
+.schedule-head {
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 33px;
+  color: white;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 0 30px;
+  width: 65%;
+  /* Set width to 100% initially */
+  margin-bottom: 20px;
+  /* Add margin at the bottom for better separation */
+}
+
+.schedule-button {
+  width: 30%;
+  /* Set width to 100% initially */
+  text-align: center;
+  /* Center align button */
+}
+
+.schedule-button button {
+  font-size: 16px;
+  /* Increase font size for better readability */
+  background-color: white !important;
+  outline: none;
+  border: none;
+  color: black;
+  padding: 12px 24px;
+  /* Increase padding for better spacing */
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  /* Add transition for smoother hover effect */
+}
+
+.schedule-button button:hover {
+  background-color: black !important;
+  color: white !important;
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 800px) {
+  .schedule-head {
+    width: 100%;
+    /* Set width to 100% for smaller screens */
+  }
+
+  .schedule-button {
+    width: 100%;
+    /* Set width to 100% for smaller screens */
+  }
+
+  .schedule {
+    margin-top: 400px;
+  }
+}
+
+
+
+
+
+.doctor-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px 20px;
+  /* display: block; */
+
+
+}
+
+.doctaor-details {
+  width: 50%;
+}
+
+.doctaor-details img {
+  border-radius: 8px;
+  margin: 0px 50px;
+}
+
+.doctaor-details p {
+  text-align: justify;
+}
+
+.doctor-container video {
+  border-radius: 8px;
+}
+
+.mainHeading {
+  color: #34024B;
+  text-align: justify;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.mySwiper {
+  background-color: transparent;
+  margin: 10px 0;
+}
+
+
+.demand-services {
+  margin: 40px 0;
+}
+
+.demand-content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+
+.img-with-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.demand-head {
+  color: var(--mainColor);
+  width: 100%;
+  text-align: center;
+}
+
+.d-services {
+  margin: 50px 0 !important;
+}
+
+.img {
+  background-image: url(../img/home/DS1.jpg);
+  height: 400px;
+  width: 100%;
+  background-size: contain;
+  object-fit: contain;
+  background-position: left;
+  background-repeat: no-repeat;
+  width: 50%;
+
+  background-attachment: fixed;
+
+  z-index: -1;
+}
+
+.img-2 {
+  background-image: url(../img/home/DS2.jpg);
+  height: 400px;
+
+  width: 100%;
+  background-size: contain;
+  object-fit: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  width: 50%;
+
+  background-attachment: fixed;
+
+  z-index: -1;
+}
+
+.text {
+  font-size: 16px;
+  width: 50%;
+  padding: 20px 30px;
+  text-align: justify;
+}
+
+.text p {
+  padding: 20px 0;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.img-3 {
+  background-image: url(../img/home/DS3.jpg);
+  height: 400px;
+
+  width: 100%;
+  background-size: contain;
+  object-fit: contain;
+  background-position: left;
+  background-repeat: no-repeat;
+  width: 50%;
+
+  background-attachment: fixed;
+
+  z-index: -1;
+}
+
+
+.img-4 {
+  background-image: url(../img/home/DS4.jpg);
+  height: 400px;
+
+  width: 100%;
+  background-size: contain;
+  object-fit: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  width: 50%;
+  background-attachment: fixed;
+  z-index: -1;
+}
+
+
+.reviews {
+  width: 100%;
+  height: 100%;
+  padding: 10px 40px;
+  /* margin: 20px ; */
+}
+
+.vid-reviews {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  border-radius: 8px;
+}
+
+iframe {
+  /* border: 5px solid black; */
+  border-radius: 8px;
+  margin: 10px 0;
+
+
+}
+
+.review-content {
+  padding: 40px;
+}
+
+.cutomer-servce-head {
+  padding: 20px 0;
+}
+
+.review-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  padding: 0 40px;
+  margin: 20px 0;
+}
+
+.review-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 344px;
+  padding: 20px 60px;
+  /* text-align: center !important;  */
+  height: 450px;
+  border-bottom: 5px solid #34024B;
+  border-radius: 8px;
+
+}
+
+.review-box:hover {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+}
+
+.review-box p strong {
+  margin: 30px 0;
+  text-align: center;
+}
+
+.review-box p {
+  line-height: 30px;
+  font-weight: 300px;
+  line-height: 29px;
+  font-size: 16px;
+  font-style: italic;
+}
+
+.star {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.yellow-icon {
+  color: rgb(255, 196, 0);
+  margin: 0 5px;
+
+  /* background-color: yellow; */
+}
+
+/* .doc-name{
+  margin: 20px  0;
+} */
+
+
+
+
+/* location-container */
+.location {
+  background-color: var(--mainColor);
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+  margin: 40px 0;
+  width: 100%;
+}
+
+.location-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 8%;
+  background-color: var(--mainColor);
+  color: white;
+  gap: 10px;
+}
+
+.address {
+  text-align: center;
+  margin: 12px;
+  width: 340px;
+}
+
+.h3headcon {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white !important;
+
+
+}
+
+.address h6 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.location h3 {
+  border-bottom: 2px solid white;
+  width: fit-content;
+  display: inline-block;
+  /* Use inline-block to make width fit content */
+  padding: 0 10px;
+  /* Add padding for better spacing */
+  font-size: 20px;
+  text-align: center;
+  color: white !important;
+
+}
+
+.address p {
+  text-align: center;
+  font-size: 16px;
+  text-align: center;
+  line-height: 10px;
+
+}
+
+.address {
+  outline: 1px solid rgba(255, 255, 255, 0.49);
+  padding: 20px 50px;
+}
+
+.address h5 {
+  margin: 30px 0;
+}
+
+.client {
+  margin: 20px 0;
+
+}
+
+.insurance-accepted {
+  width: 500px;
+}
+
+/* --------------------------Doctor Details---------------------------- */
+.doctor-wrapper {
+  display: flex;
+  width: calc(100% - 200px);
+  /* 100px for left and right margins */
+  justify-content: center;
+  flex-wrap: wrap;
+
+  margin: 0 100px;
+  /* Added margin for desktop view */
+}
+
+.doctor-into-video video {
+  border-radius: 8px;
+}
+
+.doctor-detailss {
+  width: 50%;
+}
+
+.doctor-into-video {
+  display: flex;
+  justify-content: right;
+  width: 50%;
+
+  align-items: center;
+}
+
+.dotor h2 {
+  font-size: 30px;
+  color: rgb(52, 2, 75);
+  line-height: 34px;
+  font-weight: 500px;
+  margin-bottom: 40px;
+}
+
+.dotor p {
+  font-size: 16px;
+}
+
+.dotor button {
+  padding: 10px 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  background-color: black;
+  border: 0;
+  color: white;
+}
+
+
+
+.doctor-with-img-deatils img {
+  margin-left: 50px;
+  border-radius: 8px;
+  float: right;
+
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.doctor-client {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.doctor-client img {
+  padding: 20px;
+
+
+}
+
+.dotor p {
+  text-align: justify;
+}
+
+
+/* Media Query for Tablet Screens */
+@media only screen and (max-width: 768px) {
+  .doctor-wrapper {
+    flex-direction: column;
+  }
+
+  .doctor-detailss,
+  .doctor-into-video {
+    width: 100%;
+  }
+
+  .doctor-client {
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+
+
+  }
+
+  .dotor h2 {
+    font-size: 24px;
+    line-height: 28px;
+    margin: 30px -60px;
+
+  }
+
+  .dotor p {
+    font-size: 18px;
+    margin: 30px -60px;
+    line-height: 10px;
+  }
+
+  .location p {
+    line-height: 25px;
+  }
+
+  .doctor-with-img-deatils img {
+    margin-left: 0px;
+    float: none;
+    margin-bottom: 10px;
+  }
+
+  /* Media Query for Mobile Screens */
+  @media only screen and (max-width: 480px) {
+    footer {
+      margin-top: 0;
+      padding: 20px 15px 0 15px;
+    }
+
+    .footer-box {
+      width: 100% !important;
+    }
+
+    .form-div {
+      display: block;
+    }
+
+    .form-div .communication2 {
+      width: 100%;
+    }
+
+    .schedule {
+      margin-top: 440px;
+    }
+
+    .schedule-head {
+      font-size: 22px;
+    }
+
+    .containerre {
+      margin: 50px 0 0 !important;
+    }
+
+    .sliderrr {
+      padding: 30px 0 0;
+      margin-bottom: 0 !important;
+    }
+
+    .dotor h2,
+    .dotor p {
+      margin: 15px 0 !important;
+      text-align: center;
+    }
+
+    .doctor-wrapper {
+      margin: 0 !important;
+      padding: 30px 15px;
+      width: 100%;
+    }
+
+    .name-email,
+    .phone-com {
+      display: block;
+    }
+
+    .phone,
+    .communication1 {
+      width: 100% !important;
+    }
+
+    .policy {
+      display: block;
+    }
+
+    .footer-box .contact {
+      width: 100%;
+      margin-top: 30px;
+    }
+
+    .footer-box .contact h5 {
+      margin-bottom: 15px;
+      text-align: left;
+    }
+
+    .footer-box .contact p {
+      margin: 5px 0;
+    }
+
+    .footer-box .contact svg {
+      margin-right: 10px;
+    }
+
+    .qr-img {
+      justify-content: left !important;
+    }
+
+    .tab-pane h3 {
+      margin-left: 0 !important;
+    }
+
+    .tab-pane svg {
+      display: none;
+    }
+
+    .footer-box {
+      text-align: left !important;
+    }
+
+    .schedule-head {
+      padding: 0;
+      text-align: center;
+    }
+
+    .insurance,
+    .finance {
+      justify-content: space-between !important;
+      gap: 10px;
+      padding: 0 !important;
+    }
+
+    .reviews {
+      padding: 10px 15px;
+    }
+
+    .review-box {
+      width: 100%;
+      padding: 25px 20px 0 !important;
+      box-shadow: 0 0 10px #0000001f;
+    }
+
+    .address {
+      padding: 10px 0 30px;
+      width: 100%;
+      margin: 10px 15px;
+    }
+
+    .slider-container {
+      padding: 20px 15px !important;
+    }
+
+    .slider-container img {
+      margin: auto !important;
+    }
+
+    .address h5 {
+      margin: 15px 0 20px;
+    }
+
+    .address p {
+      margin-bottom: 0;
+    }
+
+    .location-container {
+      padding: 15px 0;
+    }
+
+    .btn-center {
+      text-align: center;
+    }
+
+    .schedule-button button {
+      padding: 10px 15px;
+    }
+
+    .achieve {
+      padding: 0 15px;
+      text-align: center;
+      line-height: 30px;
+    }
+
+    .dotor h2 {
+      font-size: 20px;
+      line-height: 24px;
+    }
+
+    form {
+      padding: 0;
+    }
+
+    .dotor p {
+      font-size: 16px;
+      line-height: 20px;
+    }
+
+    .doctor-client {
+      width: fit-content;
+      margin: 0 0px;
+      display: flex !important;
+      flex-direction: row;
+      display: none !important;
+    }
+
+    .doctor-client img {
+      float: left;
+      height: auto;
+      background-color: rgb(242, 242, 242);
+      mix-blend-mode: multiply;
+      margin: 10px;
+
+    }
+
+    .doctor-with-img-deatils {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .doctor-into-video {
+      display: flex;
+      justify-content: center;
+      /* width: 300px; */
+      /* margin: -px; */
+    }
+
+    .doctor-into-video video {
+      width: 200%;
+      margin-top: 50px;
+    }
+
+    .img-with-content img {
+      width: 100%;
+    }
+
+    /* jkh jukkkkkkkkkkkn jkkkkkknjk deman media query*/
+    /* CSS */
+    .demand-services {
+      margin: 40px 0 0;
+    }
+
+    .demand-content {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+
+    .img-with-content {
+      display: flex;
+      flex-wrap: wrap;
+
+    }
+
+    .demand-head {
+      color: var(--mainColor);
+      width: 100%;
+      text-align: center;
+
+    }
+
+    .d-services {
+      /* margin: -100px 0; */
+      padding: -0px;
+      font-size: 32px;
+      text-decoration: underline;
+    }
+
+    .img,
+    .img-2,
+    .img-3,
+    .img-4 {
+      height: 400px;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: inherit;
+    }
+
+    .text {
+      width: 100%;
+      padding: 20px;
+      text-align: justify;
+
+
+    }
+
+    .text p {
+      padding: 20px 0;
+    }
+
+    @media only screen and (min-width: 768px) {
+
+      .img,
+      .img-2,
+      .img-3,
+      .img-4 {
+        width: 50%;
+      }
+
+      .text {
+        width: 50%;
+      }
+    }
+
+    /* media qury of review */
+    /* CSS */
+    @media only screen and (max-width: 768px) {
+      .review-content {
+        flex-direction: column;
+        padding: 20px;
+        margin: 0;
+        gap: 10px;
+      }
+
+      .review-box {
+        width: calc(100% -45px);
+        height: auto;
+        padding: 30px;
+      }
+    }
+
+    /* this is new */
+
+
+    /* media queert for img structre */
+    @media only screen and (max-width: 767px) {
+      .img-with-content {
+        flex-direction: column;
+      }
+
+      .box img {
+        height: auto !important;
+      }
+
+      .text {
+        order: -1;
+      }
+
+      .sliderrr .slider-mob {
+
+        display: block !important;
+      }
+
+      .sliderrr .slider-desktop {
+        display: none;
+      }
+    }
+  }
+
+
+  @media only screen and (max-width: 480px) {
+    .box44 .text11 {
+      margin-left: 20px;
+    }
+
+
+  }
+}
+
+@media only screen and (max-width: 1024px) and (max-height: 600px) {
+
+  /* Your CSS rules for screens with a maximum width of 1024 pixels and a maximum height of 600 pixels go here */
+  .slider-container {
+    display: flex;
+    justify-content: center !important;
+  }
+}
+
+
+.vidcontain {
+  display: flex;
+  justify-content: center;
+}
+
+.slidermargin {
+  margin-bottom: 100px;
+  height: 100% !important;
+  width: 100% !important;
+}
+
+
+.sliderrr {
+  width: 100%;
+  height: auto;
+  margin-bottom: 50px;
+}
+
+.sliderrr img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+}
+
+.sliderrr .slider-mob {
+  display: none;
+}
+
+/* Validation Error Styling */
+.input-error {
+  border-color: red;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+
+
+}
+
+.toast-container {
+  width: 300px;
+}
+
+.toast-body {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.toast-error {
+  background-color: #f44336;
+}

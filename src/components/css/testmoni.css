@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+:root {
+    --RobotoFont: "Roboto", sans-serif;
+}
+
+* {
+    font-family: var(--RobotoFont);
+    text-transform: none !important;
+
+}
+
+
+* {
+    font-family: var(--RobotoFont);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+
+.container1 {
+    padding-bottom: 100px;
+    margin: 1% 10%;
+}
+
+.container1 .heading {
+    text-align: center;
+    padding-bottom: 15px;
+    color: #34024B;
+    font-size: 38px;
+    margin: 30px;
+    margin-top: 50px;
+}
+
+.testimon .box-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.testimon .box-container .box {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    background: #fff;
+    text-align: center;
+    padding: 30px 40px;
+}
+
+
+.testimon .box-container .box h3 {
+    color: rgb(209, 162, 77);
+    font-size: 38px;
+    padding: 10px 0;
+}
+
+.testimon .box-container .box p {
+    color: #777;
+    font-size: 16px;
+    line-height: 29px;
+    font-weight: 300;
+}
+
+.testimon .box-container .box .btn {
+    margin-top: 10px;
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+
+.testimon .box-container .box .btn:hover {
+    letter-spacing: 1px;
+}
+
+.testimon .box-container .box:hover {
+    box-shadow: 0 10px 15px rgba(115, 115, 115, 0.148);
+    transform: scale(1.03);
+}
+
+@media (max-width:768px) {
+    .container1 {
+        /* padding:20px; */
+    }
+}
+
+.img-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 10px 0;
+}
+
+.img-name img {
+    width: 55px !important;
+    height: 55px !important;
+    border-radius: 50%;
+
+}
+
+.img-name .namee {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+
+}
+
+/* ---------------------------------------------->> Board Start <<------------------------------------------------------
+---------------------------------------------->> Board Start <<------------------------------------------------------ */
+/*  */
+
+
+.board-container {
+    margin-bottom: 60px;
+    background-color: black;
+}
+
+.board-container .board {
+    background-color: #34024B;
+    padding: 40px 10%;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.board-container .board button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+}
+
+
+
+
+/* 
+---------------------------------------------->> Board Before <<------------------------------------------------------
+---------------------------------------------->> Board Before <<------------------------------------------------------ */
